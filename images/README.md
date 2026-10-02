@@ -1,30 +1,17 @@
-# Dashboard Screenshots
+# Dashboard Visuals
 
-Add PNG screenshot files to this folder using these exact filenames. The main `README.md` already references `dashboard-overview.png`.
+This folder contains the visuals used in the project README and documentation.
 
-| Filename | Recommended content |
+| Visual | File |
 |---|---|
-| `dashboard-overview.png` | Main Tableau dashboard or Story landing page |
-| `department-analysis.png` | Department hiring and termination chart |
-| `job-title-analysis.png` | Job-title distribution chart |
-| `location-analysis.png` | HQ vs. branch view or state map |
-| `demographic-analysis.png` | Gender, age-group, or education view |
-| `compensation-analysis.png` | Age vs. salary or education/gender salary view |
+| Primary dashboard preview | [HR Workforce Analytics Dashboard](HR%20Workforce%20Analytics%20Dashboard.png) |
+| Storyboard | [HR Storyboard](HR%20Storyboard.png) |
+| Department activity | [Department Analysis](Department%20Analysis.png) |
+| Job-title analysis | [Job Title Analysis](job-title-analysis.png) |
+| Location analysis | [Location Analysis](Location-analysis.png) |
+| Compensation analysis | [Compensation Analysis](Compenstation_analysis.png) |
+| Detailed dashboard | [Details Dashboard](Details%20Dashboard%20.png) |
+| Department location analysis | [Department Location Analysis](Department%20Location%20Analysis.png) |
+| Job-title population | [Job Title by Population](jobtitle%20by%20population.png) |
 
-## Best Practice
-
-Use clean, readable screenshots with the Tableau toolbar hidden if possible. Aim for a wide image ratio so it displays well in GitHub README files.
-
-## Optional README Additions
-
-After uploading the screenshots, you can add these lines beneath the Dashboard Preview section in the root README:
-
-```markdown
-### Analysis Views
-
-![Department Analysis](images/department-analysis.png)
-![Job Title Analysis](images/job-title-analysis.png)
-![Location Analysis](images/location-analysis.png)
-![Demographic Analysis](images/demographic-analysis.png)
-![Compensation Analysis](images/compensation-analysis.png)
-```
+The root [README](../README.md) displays a curated selection of these visuals.

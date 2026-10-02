@@ -1,25 +1,11 @@
-# Data Files
+# Project Data
 
-This folder is reserved for optional project data files.
+The files in this folder support the HR Workforce Analytics Dashboard. All data is fictional/synthetic and is provided for portfolio demonstration purposes.
 
-## Suggested Structure
+| File | Description |
+|---|---|
+| [HRData.csv](HRData.csv) | Analysis-ready HR dataset used for dashboard exploration |
+| [HumanResources.csv](HumanResources.csv) | Source HR dataset used during preparation and analysis |
+| [mockups.drawio](mockups.drawio) | Dashboard/project mockup diagram |
 
-```text
-data/
-├── raw/            # Original fictional source files
-└── processed/       # Cleaned or analysis-ready files
-```
-
-## Suggested Files
-
-- `data/raw/HumanResources.xlsx`
-- `data/raw/HumanResources.csv`
-- `data/processed/HRData.csv`
-
-## Public-Repository Rule
-
-Upload only fictional, synthetic, or fully approved public data. Never publish personally identifiable information, confidential HR records, credentials, or proprietary company data.
-
-## Portfolio Note
-
-Including a small, clean fictional dataset is useful because it lets viewers understand the project structure. If you prefer not to publish the full dataset, keep this folder as documentation only and provide the Tableau Public link for interactive review.
+> Do not use these files to make conclusions about a real organization or workforce.

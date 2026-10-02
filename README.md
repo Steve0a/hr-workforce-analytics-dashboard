@@ -1,102 +1,113 @@
 # HR Workforce Analytics Dashboard
 
-An interactive Tableau dashboard that turns fictional HR data into workforce insights across hiring, terminations, demographics, compensation, job roles, education, and geography.
+An interactive Tableau dashboard that transforms fictional HR data into workforce insights across hiring, terminations, demographics, compensation, job roles, education, and geography.
 
-**Live dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/steve.o.a/viz/HRDashboard_17909717904240/HRDetails)
+[**View the interactive dashboard on Tableau Public**](https://public.tableau.com/app/profile/steve.o.a/viz/HRDashboard_17909717904240/HRDetails)
 
-> **Data note:** This portfolio project uses a fictional/synthetic HR dataset. It is intended to demonstrate analytics, data-visualization, and storytelling skills—not to represent a real organization or its employees.
+> **Data disclosure:** This portfolio project uses fictional/synthetic HR data. It demonstrates analytics, data visualization, and storytelling capabilities; it does not represent a real organization or employee population.
 
 ## Dashboard Preview
 
-![HR Workforce Analytics Dashboard](images/dashboard-overview.png)
+![HR Workforce Analytics Dashboard](images/HR%20Workforce%20Analytics%20Dashboard.png)
 
-*Add `dashboard-overview.png` to the `images/` folder to display the primary dashboard preview here. See [images/README.md](images/README.md) for all screenshot names.*
+## Project Overview
 
-## Project Goal
-
-This project demonstrates how HR data can be organized into an interactive decision-support dashboard. The analysis helps users explore workforce composition, hiring and termination patterns, compensation differences, performance-related views, job-title distribution, education levels, and employee location patterns.
+This project organizes workforce information into an interactive decision-support dashboard. It enables exploration of workforce composition, hiring and termination activity, compensation patterns, job-title distribution, education levels, and employee-location trends.
 
 ## Business Questions
 
 - Which departments and job titles account for the highest hiring volume?
 - How do hires and terminations vary by department and workforce segment?
 - How is the workforce distributed across headquarters, branches, and states?
-- What workforce patterns appear across gender, age group, and education level?
-- How do average salaries vary by role, age, and education level?
+- What patterns appear across gender, age group, and education level?
+- How do average salaries vary by role, age, education level, and gender?
 
 ## Tools Used
 
-- **Tableau** — interactive dashboard design, calculated fields, filters, mappings, and visual storytelling
+- **Tableau** — interactive dashboards, calculated fields, filters, maps, and visual storytelling
 - **Python / pandas** — data cleaning, missing-value checks, category standardization, and derived fields
 - **Excel / CSV** — source-data review and preparation
-- **GitHub** — project documentation and portfolio presentation
+- **GitHub** — version control and portfolio documentation
 
-## Dashboard Sections
+## Dashboard Coverage
 
-| Section | What it explores |
+| Area | Analysis |
 |---|---|
-| Department analysis | Hiring and termination counts by department |
-| Job-title analysis | Workforce/hiring distribution across roles |
-| Location analysis | Headquarters vs. branch distribution and geographic coverage |
+| Department activity | Hiring and termination counts by department |
+| Job-title distribution | Hiring/workforce distribution across roles |
+| Location | Headquarters vs. branch distribution and state-level coverage |
 | Demographics | Gender, age-group, and education-level patterns |
-| Compensation | Average salary by age, job title, education level, and gender |
+| Compensation | Salary comparisons by age, job title, education level, and gender |
 
-## Project Workflow
+## Dashboard Gallery
 
-1. Reviewed and prepared the HR source data in Excel and Python.
-2. Checked for missing values in key fields such as salary, performance rating, hire date, and termination date.
-3. Standardized category values and date formats.
-4. Created derived analytical fields, including age, employment duration, salary bands, and performance-related indicators.
-5. Built individual Tableau worksheets for departments, job titles, locations, demographics, education, and salary relationships.
-6. Combined the views into an interactive Tableau dashboard and published it to Tableau Public.
+### HR Storyboard
 
-## Portfolio Observations
+![HR Storyboard](images/HR%20Storyboard.png)
 
-The following observations are descriptive summaries of the published fictional dataset and should be interpreted as dashboard exploration prompts rather than conclusions about a real company:
+### Department Analysis
 
-- Operations has the largest displayed hiring volume, followed by Sales and Customer Service.
-- The location view shows approximately 70% of displayed hires at branch locations and 30% at headquarters.
-- The education-level view shows Bachelor’s degree holders as the largest displayed group.
-- Salary patterns differ by job title, age, education level, and gender, making these useful areas for compensation review.
-- Workforce activity spans several U.S. states, with the map supporting location-level exploration.
+![Department Analysis](images/Department%20Analysis.png)
 
-See [docs/insights-and-recommendations.md](docs/insights-and-recommendations.md) for interpretation guidance and possible HR actions.
+### Job-Title Analysis
+
+![Job Title Analysis](images/job-title-analysis.png)
+
+### Location Analysis
+
+![Location Analysis](images/Location-analysis.png)
+
+### Compensation Analysis
+
+![Compensation Analysis](images/Compenstation_analysis.png)
+
+## Methodology
+
+1. Reviewed the HR source data and assessed key fields such as salary, performance rating, hire date, and termination date.
+2. Standardized selected categorical values and converted date fields into consistent formats.
+3. Developed analytical fields including age, employment duration, salary bands, and performance-related indicators.
+4. Built Tableau worksheets for departmental activity, job titles, locations, demographics, education, and compensation relationships.
+5. Combined the views into an interactive Tableau dashboard and published it to Tableau Public.
+
+## Descriptive Observations
+
+The points below summarize patterns visible in the fictional dashboard data and are intended as examples of analytical interpretation:
+
+- Operations has the highest displayed hiring volume, followed by Sales and Customer Service.
+- Branch locations account for approximately 70% of displayed hires, while headquarters accounts for approximately 30%.
+- Bachelor’s degree holders are the largest displayed education group.
+- Salary levels vary across job titles, age, education level, and gender, providing useful starting points for compensation review.
+- The geographic view supports workforce exploration across several U.S. states and locations.
+
+For interpretation guidance and potential next analyses, see [Insights and Recommendations](docs/insights-and-recommendations.md).
+
+## Project Files
+
+| Resource | Description |
+|---|---|
+| [Interactive Tableau dashboard](https://public.tableau.com/app/profile/steve.o.a/viz/HRDashboard_17909717904240/HRDetails) | Published dashboard for interactive exploration |
+| [Tableau packaged workbook](dashboard/HR%20Dashboard.twbx) | Downloadable Tableau workbook package |
+| [HRData.csv](data/HRData.csv) | Analysis-ready fictional HR data |
+| [HumanResources.csv](data/HumanResources.csv) | Fictional HR source data |
+| [Project overview](docs/project-overview.md) | Business context, scope, and intended use |
+| [Data dictionary](docs/data-dictionary.md) | Field groups and derived metrics |
+| [Insights and recommendations](docs/insights-and-recommendations.md) | Interpretation notes and suggested next analyses |
 
 ## Repository Structure
 
 ```text
 hr-workforce-analytics-dashboard/
-├── data/                         # Optional fictional source/processed data
-├── dashboard/                    # Tableau workbook files
-├── docs/                         # Project documentation
-├── images/                       # Dashboard screenshots used in this README
+├── dashboard/     # Tableau packaged workbook
+├── data/          # Fictional HR data and project mockup
+├── docs/          # Project documentation
+├── images/        # Dashboard visuals
 ├── README.md
 ├── LICENSE
 └── .gitignore
 ```
 
-## Add the Tableau Workbook
-
-Upload your workbook using one of these exact paths:
-
-- `dashboard/HR_Workforce_Analytics_Dashboard.twb` for the Tableau workbook file
-- `dashboard/HR_Workforce_Analytics_Dashboard.twbx` for the packaged workbook, if you choose to share it
-
-Read [dashboard/README.md](dashboard/README.md) before uploading. A `.twbx` can include data extracts, so verify that it contains only fictional, shareable data.
-
-## Add Screenshots
-
-Add dashboard images to `images/` using the filenames in [images/README.md](images/README.md). Once added, the main preview image will automatically appear at the top of this README.
-
-## Viewing the Project
-
-- Use the [Tableau Public dashboard](https://public.tableau.com/app/profile/steve.o.a/viz/HRDashboard_17909717904240/HRDetails) for interactive exploration.
-- Use this repository for project context, methods, documentation, dashboard screenshots, and optional files.
-
 ## Author
 
 Steve Okyere Oduro-Amoyaw
 
----
-
-If you use or adapt this project, please credit the author and retain the fictional-data disclosure.
+Licensed under the [MIT License](LICENSE).
